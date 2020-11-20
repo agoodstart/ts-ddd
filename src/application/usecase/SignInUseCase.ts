@@ -1,9 +1,9 @@
-import ISigninUseCase from './ISignUseCase';
+import ISignInUseCase from './ISignUseCase';
 import IUserDto from './IUserDto';
 import IUserReadOnlyRepository from '../repositories/IUserReadOnlyRepository';
 import User from '@pbb/domain/User';
 
-export default class SigninUseCase implements ISigninUseCase {
+export default class SignInUseCase implements ISignInUseCase {
     
     private userReadOnlyRepository: IUserReadOnlyRepository;
 
