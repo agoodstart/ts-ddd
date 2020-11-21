@@ -1,8 +1,8 @@
 export default class User {
     constructor(
-        public id: String, 
-        public name: String, 
-        public email: String,
-        public password: String,
-        public type: String){}
+        public id: string, 
+        public name: string, 
+        public email: string,
+        public password: string,
+        public type: string){}
 }
